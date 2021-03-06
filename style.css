@@ -1,0 +1,1159 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    color: #2F3132;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+.last_desktop {
+    display: none;
+}
+
+.comfort, .fast {
+    display: block;
+}
+
+/*~~~~~~~~~~~~~~~~~ Common class ~~~~~~~~~~~~~~~~~*/
+.center_content {
+    display: flex;
+    justify-content: center;
+}
+
+.section__text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+}
+
+.section__title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    text-align: center;
+}
+
+.mb_20 {
+    margin-bottom: 20px;
+}
+
+.mb_80 {
+    margin-bottom: 80px;
+}
+
+.navbar {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.navbar-brand {
+    padding: 0;
+    margin-right: 60px;
+    padding-left: 123px;
+    z-index: 1;
+}
+.navbar-light .navbar-toggler {
+    color: unset;
+    border-color: unset;
+    border: none;
+    padding: 0;
+    border-radius: 0;
+    margin-top: -14.5px;
+    z-index: 1;
+}
+
+.navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: none;
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url('img/menu-burger.png');
+    width: 30px;
+    height: 15px;
+    background-size: contain;
+}
+.navbar-light .navbar-toggler-icon.active {
+    background-image: url('img/Vector 8.png');
+    width: 30px;
+    height: 30px;
+    background-size: contain;
+}
+
+
+.navbar-nav {
+    position: fixed;
+    width: 100%;
+    overflow-scrolling: unset;
+    /*height: 100%;*/
+    padding-top: 211px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    background-color: #2F3132;
+    overflow: hidden;
+}
+.navbar-collapse {
+    position: absolute;
+    top: -25px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #C4C4C4;
+    padding: 32px 28px;
+}
+
+.desktop {
+    display: none;
+}
+.mob.active {
+    display: block;
+}
+
+.mob {
+    display: none;
+}
+.desktop.active {
+    display: block;
+}
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link{
+    color: #fff;
+    position: relative;
+}
+.navbar-light .navbar-nav .nav-link.active:after {
+    position: absolute;
+    content: '';
+    width: 50%;
+    height: 1px;
+    background-color: #fff;
+    bottom: 30%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+    /*~~~~~~~~~~~~~~~~~ Top ~~~~~~~~~~~~~~~~~*/
+
+.top {
+    background: #E0E1E2;
+    min-width: 375px;
+    padding-bottom: 48px;
+}
+
+header {
+    padding-top: 25px;
+    margin-bottom: 94px;
+}
+
+.header__logo {
+    width: 130px;
+    height: 39.16px; 
+    align-self: center;
+}
+
+.line {
+    width: 100%;
+    height: 4px;
+    background-color: #2F3132;
+}
+
+.line_2 {
+    margin: 4px 0;
+}
+
+.top__image {
+    width: 375px;
+    height: 230px;
+    background: url(img/MX-Master\ 1.png);
+    margin-top: -24px;
+    margin-bottom: 67px;
+    background-size: contain;
+}
+
+.top_text {
+    padding: 0 59px 40px;
+}
+
+.red_arrow {
+    width: 41px;
+    height: 22px;
+    margin: 0 auto;
+    background: url(img/arrow.svg);
+}
+
+/*~~~~~~~~~~~~~~~~~ wireless ~~~~~~~~~~~~~~~~~*/
+.wireless {
+    padding: 42px 0 18px;
+    background: #EDEDED;
+}
+
+.bt_icon {
+    width: 18px;
+    height: 34px;
+    margin: 0 auto;
+    background: url(img/icon-bluetooth.svg);
+    margin-bottom: 27px;
+}
+
+.wireless_text {
+    padding: 0 33px 31px 34px;
+}
+
+.big_text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 70px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #C4C4C4;
+}
+
+.wireless_photo {
+    width: 375px;
+    height: 218px;
+    background: url(img/High_Resolution_PNG-MX\ Master\ 3\ LEFT\ GRAPHITE\ 1.png);
+    background-size: contain;
+}
+.wireless_photo2 {
+    display: none;
+}
+
+/*~~~~~~~~~~~~~~~~~ different ~~~~~~~~~~~~~~~~~*/
+.different {
+    padding: 70px 0 63px;
+    background: #fff;
+}
+
+.different_text {
+    padding: 0 61px 30px 67px;
+}
+
+.different_tables {
+    gap: 6px;
+    margin-bottom: 28px;
+}
+
+.different_table {
+    width: 166px;
+    min-height: 94.07px;
+    border: 1px solid #2F3132;
+    box-sizing: border-box;
+}
+
+.table_first {
+    padding-top: 14.78px;
+}
+
+.table_second {
+    padding-top: 9.4px;
+}
+
+.different_table_title {
+    margin-bottom: 5.22px;
+}
+
+.different_table_text {
+    padding: 0 17px 0 18px;
+}
+
+.carousel_title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    margin-top: 27.65px;
+}
+
+.carousel-indicators [data-bs-target] {
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    width: 34px;
+    height: 34px;
+    padding: 0;
+    margin-right: 3px;
+    margin-left: 3px;
+    cursor: pointer;
+    border-radius: 50%;
+    border: none;
+    opacity: 1;
+
+}
+
+.carousel-indicators #first_indicator {
+    background: url(img/wood-texture.png);
+}
+.carousel-indicators #second_indicator {
+    background: url(img/glass-texture.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.carousel-indicators #third_indicator {
+    background: url(img/linoleum-texture.png);
+}
+.carousel-indicators #fourth_indicator {
+    background: url(img/cloth-texture.png);
+}
+.carousel-indicators #fifth_indicator {
+    background: url(img/marble-texture.png);
+}
+
+.carousel-indicators {
+    margin-bottom: 0;
+    bottom: -54px;
+    justify-content: space-between;
+}
+
+.carousel-control-next, .carousel-control-prev {
+    position: absolute;
+    top: unset;
+    bottom: -47px;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15%;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+    background: 0 0;
+    border: 0;
+    opacity: 1;
+    transition: opacity .15s ease;
+}
+
+.carousel-control-prev-icon {
+    background-image: url(img/arrow-left.svg);
+    width: 9px;
+    height: 18px;
+}
+
+.carousel-control-next-icon {
+    background-image: url(img/arrow-right.svg);
+    width: 9px;
+    height: 18px;
+}
+
+.carousel__decription_text {
+    padding: 55px 33px 0 34px;
+}
+
+/*~~~~~~~~~~~~~~~~~ device ~~~~~~~~~~~~~~~~~*/
+.device {
+    padding-top: 70px;
+    background: #EDEDED;
+}
+
+.device_text {
+    padding: 0 33px 36px 34px;
+}
+
+.list {
+    padding: 0 101px 0 54px;
+}
+.text_list {
+    text-align: left;
+    margin-bottom: 16px;
+}
+
+.list_img {
+    width: 375px;
+    height: 308.53px;
+    background: url('img/High_Resolution_JPG-MX Lifestyle 2346 1.png');
+    background-size: cover;
+    margin-top: -100px;
+}
+
+/*~~~~~~~~~~~~~~~~~ settings ~~~~~~~~~~~~~~~~~*/
+.settings {
+    padding-top: 70px;
+    background: #EDEDED;
+}
+.settings_text {
+    padding: 0 33px 35px 34px;
+}
+
+.settings_photo {
+    display: none;
+}
+
+.settings_carousel {
+    width: 330px;
+    height: 404.81px;
+    margin-left: 23px;
+    margin-right: 22px;
+    padding-bottom: 95px;
+}
+
+.carousel-indicators .settings_slider {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #C4C4C4;
+}
+.settings_slider.active {
+    background: #2F3132;
+}
+.settings_indicator {
+    bottom: -35px;
+}
+
+.carousel-inner.settings_inner, .carousel__settings_item {
+    width: 330px;
+    height: 404.81px;
+}
+.carousel__settings_item img {
+    height: 404.81px;
+    object-fit: contain;
+}
+
+.settings_app {
+    background: #C4C4C4;
+    margin-top: 95px;
+    padding: 23px 22px 26px 29px;
+}
+
+.settings_app_icons {
+    background: url('img/icons-apps.png');
+    width: 322px;
+    height: 22px;
+    background-size: contain;
+}
+.settings_app_text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-right: 11px;
+    padding-left: 5px;
+    margin-top: 20px;
+}
+
+/*~~~~~~~~~~~~~~~~~ comfort ~~~~~~~~~~~~~~~~~*/
+.comfort {
+    padding-top: 70px;
+    background: #fff;
+}
+.comfort_text {
+    padding: 0 34px 0 34px;
+    margin-bottom: 20px;
+}
+
+.section_image {
+    width: 375px;
+    height: 310px;
+    object-fit: cover;
+}
+
+/*~~~~~~~~~~~~~~~~~ fast ~~~~~~~~~~~~~~~~~*/
+.fast {
+    padding-top: 70px;
+    background: #fff;
+}
+
+/*~~~~~~~~~~~~~~~~~ footer ~~~~~~~~~~~~~~~~~*/
+footer {
+    width: 100%;
+    height: 75px;
+    background: #2F3132;
+
+}
+.footer_text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 7px;
+    line-height: 8px;
+    text-align: center;
+    color: #C7C8C8;
+    padding: 22px 145px 37px;
+}
+
+.big_text span {
+    color: #C4C4C4;
+}
+.wireless_photo {
+    background-repeat: no-repeat;
+}
+
+@media (min-width: 895px) and (max-width: 1160px) {
+    .section__title {
+        font-size: 40px;
+        line-height: 47px;
+    }
+    .mb_30 {
+        margin-bottom: 30px;
+    }
+    .section__text {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .top{
+        padding-bottom: 80px;
+    }
+    .header__logo {
+        width: 240px;
+        height: 72.3px;
+    }
+
+    .navbar-light .navbar-toggler-icon {
+        width: 61px;
+        height: 32px;
+    }
+    .navbar {
+        width: 100%;
+        padding-left: 327px;
+    }
+    .navbar-brand {
+        padding-left: 0;
+    }
+    .navbar-light .navbar-toggler {
+        margin-top: -35.5px;
+        padding-right: 40px;
+    }
+
+
+    header {
+        padding-top: 54px;
+        margin-bottom: 160px;
+    }
+    .top__image {
+        width: 894px;
+        height: 514px;
+        margin-top: -48px;
+        margin-bottom: 124px;
+        background-size: contain;
+    }
+    .top_text {
+        padding: 0 155px 76px;
+    }
+
+    .wireless {
+        padding: 80px 0 0 0;
+    }
+    .bt_icon {
+        width: 21px;
+        height: 40px;
+        background-size: contain;
+        margin-bottom: 39px;
+    }
+    .wireless_text {
+        padding: 0 77px 76px 77px;
+    }
+
+    .big_text {
+        font-size: 150px;
+        line-height: 176px;
+    }
+    .wireless_photo {
+        width: 836px;
+        height: 498px;
+        margin-right: 19px;
+        margin-left: 39px;
+        margin-top: -78px;
+    }
+
+    .different {
+        padding-bottom: 61px;
+    }
+    .different_text {
+        padding: 0 90px 50px 90px;
+    }
+    .different_tables {
+        gap: 30px;
+        margin-bottom: 50px;
+    }
+    .different_table {
+        width: 300px;
+        min-height: 170px;
+    }
+    .mb_163 {
+        margin-bottom: 163px;
+    }
+    .carousel_title {
+        margin-top: 50px;
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .carousel-indicators {
+        bottom: -95px;
+        justify-content: center;
+        margin-right: 27%;
+        margin-left: 27%;
+    }
+    .carousel-indicators [data-bs-target] {
+        width: 45px;
+        height: 45px;
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+    .carousel-control-next, .carousel-control-prev {
+        bottom: -85px;
+        width: 12px;
+        height: 24px;
+    }
+    .carousel-control-prev-icon, .carousel-control-next-icon {
+        width: 12px;
+        height: 24px;
+    }
+    .carousel-control-prev {
+        left: 230px;
+    }
+    .carousel-control-next {
+        right: 230px;
+    }
+    .carousel__decription_text {
+        padding: 0 77px 0 77px;
+    }
+
+
+    .device_title {
+        padding: 0 129px 0 129px;
+    }
+    .device_text {
+        padding: 0 65px 0 65px;
+    }
+    .list {
+        display: flex;
+        padding: 62px 53px 0 45px;
+        justify-content: center;
+        align-items: center;
+    }
+    .text_list {
+        font-size: 20px;
+        line-height: 23px;
+        border-right: 1px solid #494949;
+        padding-left: 22px;
+        padding-right: 15px;
+    }
+    .text_list:first-child {
+        padding-right: 0;
+    }
+    .text_list:last-child {
+        border: none;
+    }
+    .list_img {
+        width: 894px;
+        height: 624.21px;
+        margin-top: -133px;
+    }
+
+
+    .settings {
+        padding-bottom: 70px;
+    }
+    .settings_title {
+        padding: 0 215px;
+    }
+    .settings_text {
+        padding: 0 65px 54px 65px;
+    }
+    .settings_carousel {
+        width: 497px;
+        height: 610px;
+        margin: 0 auto;
+    }
+    .carousel-inner.settings_inner, .carousel__settings_item {
+        width: 497px;
+        height: 610px;
+    }
+    .carousel__settings_item img {
+        height: 610px;
+        object-fit: contain;
+    }
+    .carousel-indicators .settings_slider {
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+        background: #C4C4C4;
+        margin-right: 12.5px;
+         margin-left: 12.5px;
+    }
+    .settings_slider.active {
+        background: #2F3132;
+    }
+    .carousel-indicators.settings_indicator {
+        bottom: -75px;
+        justify-content: center;
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .settings_app {
+        margin-top: 148px;
+        width: 765px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 38px 0 29px 0;
+    }
+    .settings_app_icons {
+        width: 490px;
+        height: 35px;
+        margin: 0 auto;
+    }
+    .settings_app_text{
+        padding-right: 69px;
+        padding-left: 69px;
+        margin-top: 25px;
+        font-size: 20px;
+        line-height: 23px;
+    }
+
+    .comfort_title {
+        width: 762px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .comfort_text {
+        padding: 0 73px 0 73px;
+        margin-bottom: 50px;
+    }
+
+    .section_image {
+        width: 894px;
+        height: 549px;
+    }
+
+    footer {
+        height: 150px;
+    }
+
+    .footer_text {
+        font-size: 14px;
+        line-height: 16px;
+        color: #C7C8C8;
+        padding: 47px 362px 71px;
+    }
+
+    .big_text span {
+        color: #C4C4C4;
+    }
+    .wireless_photo_block {
+        width: 836px;
+        height: 498px;
+    }
+    .wireless_photo {
+        background-repeat: no-repeat;
+        margin-top: -35px;
+    }
+    .settings_title {
+        padding: 0px 200px;
+    }
+    .footer_text {
+        padding: 47px 355px 71px;
+    }
+}
+
+@media (min-width: 1160px) {
+    .top_padding {
+        padding-right: calc(50% - 580px);
+        padding-left: calc(50% - 580px);
+    }
+    .section__title {
+        font-size: 36px;
+        line-height: 42px;
+    }
+    .section__text {
+        font-size: 20px;
+        line-height: 23px;
+    }
+    .mb_35 {
+        margin-bottom: 35px;
+    }
+    .header {
+        background: #2F3132;
+        margin-bottom: 100px;
+    }
+    .m_auto {
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .top {
+        padding-bottom: 80px;
+    }
+    .top__image {
+        width: 1160px;
+        height: 671px;
+        margin-top: -100px;
+        margin-bottom: 8px;
+    }
+    .top_text {
+        padding-bottom: 49px;
+    }
+
+    .wireless {
+        padding-top: 80px;
+    }
+    .bt_icon {
+        width: 21px;
+        height: 40px;
+        background-size: contain;
+        margin-bottom: 35px;
+    }
+    .wireless_text {
+        padding-right: calc(50% - 380.5px);
+        padding-left: calc(50% - 380.5px);
+        padding-bottom: 14px;
+    }
+    .big_text span {
+        font-size: 300px;
+        line-height: 352px;
+        color: #C4C4C4;
+    }
+    .big_text {
+        font-size: 96px;
+        line-height: 200px;
+        display: flex;
+        justify-content: center;
+    }
+    .wireless {
+        position: relative;
+        padding-bottom: 69px;
+    }
+    .wireless_photo_block {
+        display: block;
+        margin-top: -245px;
+        padding-right: calc(50% - 630.5px);
+        padding-left: calc(50% - 630.5px);
+    }
+    .wireless_photo {
+        display: inline-block;
+        width: 667px;
+        height: 307px;
+        background: url('img/High_Resolution_PNG-MX Master 3 LEFT GRAPHITE 1 (1).png');
+        background-position: 35px;
+    }
+    .wireless_photo2 {
+        display: inline-block;
+        width: 533px;
+        height: 286px;
+        background: url('img/High_Resolution_PNG-MX Master 3 FRONT GRAPHITE 1.png') no-repeat;
+        background-position: -35px;
+    }
+
+    .different {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    .different_text {
+        padding-right: calc(50% - 320px);
+        padding-left: calc(50% - 320px);
+        padding-bottom: 50px;
+    }
+    .different_tables {
+        gap: 30px;
+        margin-bottom: 50px;
+    }
+    .different_table {
+        width: 237px;
+        height: 140px;
+    }
+    .carousel {
+        max-width: 1280px;
+        height: 573px;
+    }
+    .carousel-inner, .carousel-item img {
+        width: 100%;
+    }
+    .carousel_title {
+        font-size: 20px;
+        line-height: 23px;
+        margin-top: 40px;
+    }
+    .carousel__decription_text {
+        padding: 152px 0px 0 0px;
+        padding-right: calc(50% - 383px);
+        padding-left: calc(50% - 383px);
+    }
+
+    .carousel-indicators {
+        bottom: -122px;
+        justify-content: center;
+        margin-right: 35%;
+        margin-left: 35%;
+    }
+    .carousel-indicators [data-bs-target] {
+        width: 45px;
+        height: 45px;
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+    .carousel-control-next, .carousel-control-prev {
+        bottom: -112px;
+        width: 12px;
+        height: 24px;
+    }
+    .carousel-control-prev-icon, .carousel-control-next-icon {
+        width: 12px;
+        height: 24px;
+    }
+    .carousel-control-prev {
+        left: 430px;
+    }
+    .carousel-control-next {
+        right: 430px;
+    }
+
+    .device {
+        padding-top: 100px;
+        position: relative;
+        height: 1330px;
+        max-height: 1330px;
+    }
+    .device_title {
+        position: relative;
+        z-index: 2;
+    }
+    .device_text {
+        padding-right: calc(50% - 479px);
+        padding-left: calc(50% - 479px);
+        padding-bottom: 64px;
+        position: relative;
+        z-index: 2;
+    }
+    .list {
+        padding-right: calc(50% - 479px);
+        padding-left: calc(50% - 479px);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        z-index: 2;
+    }
+    .text_list {
+        padding-right: 51px;
+        border-right: 1px solid #494949;
+        padding-left: 58px;
+    }
+    .text_list:last-child {
+        border: none;
+        padding-right: 0px;
+    }
+    .text_list:first-child {
+        padding-left: 0px;
+    }
+    .text_list:nth-child(2) {
+        padding-left: 71px;
+    }
+    .list_img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        margin-top: 0;
+        background-repeat: no-repeat ;
+        background-size: contain;
+    }
+
+
+    .settings {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    .settings_text {
+        padding-right: calc(50% - 397px);
+        padding-left: calc(50% - 397px);
+        padding-bottom: 72px;
+    }
+    .settings_carousel {
+        display: none;
+    }
+    .settings_photo {
+        display: block;
+        width: 1171px;
+        height: 698px;
+        background: url('img/744aa55 1.png');
+    }
+    .settings_app {
+        width: 749px;
+        height: 196px;
+        padding: 38px 0 29px 0;
+        margin-top: -55px;
+    }
+    .settings_app_icons {
+        width: 512px;
+        height: 35px;
+    }
+    .settings_app_text {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 23px;
+        text-align: center;
+        color: #FFFFFF;
+        padding-right: 72px;
+        padding-left: 49px;
+        margin-top: 25px;
+    }
+    .comfort, .fast {
+        display: none;
+    }
+    .last_desktop {
+        background: #fff;
+        padding: 100px 0 100px 0;
+        display: flex;
+        max-width: 1270px;
+        flex-wrap: wrap;
+    }
+    .section_image {
+        width: 633px;
+        height: 557px;
+    }
+    .last_desktop_text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 633px;
+        height: 557px;
+    }
+    .first, .second {
+        display: flex;
+    }
+    .first h2, .first p {
+        text-align: left;
+        padding-left: 32px;
+        padding-right: 204px;
+    }
+    .second h2, .second p {
+        text-align: right;
+        padding-right: 32px;
+        padding-left: 192px;
+    }
+
+    footer {
+        height: 150px;
+    }
+    .footer_text {
+        font-size: 14px;
+        line-height: 16px;
+        padding: 47px 0 71px;
+        padding-right: calc(50% - 85px);
+        padding-left: calc(50% - 85px);
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 14px;
+        color: #fff;
+        position: relative;
+        padding-right: 21px;
+        padding-left: 21px;
+        white-space: nowrap;
+    }
+    .nav-item {
+        border-right: 1px solid #494949;
+    }
+    .nav-item:last-child {
+        border: none;
+    }
+
+    .navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link.active,
+    .navbar-light .navbar-nav .nav-link:focus {
+        color: #fff;
+    }
+    .navbar-light .navbar-nav .nav-link.active:after {
+        position: absolute;
+        content: '';
+        width: 80%;
+        height: 1px;
+        background-color: #fff;
+        bottom: 31%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .navbar {
+        width: 1160px;
+        height: 100px;
+        padding-bottom: 0;
+        padding-top: 0;
+    }
+    header {
+        padding-top: 0;
+    }
+    .navbar-collapse {
+        flex-grow: 0;
+    }
+    /*.navbar-brand {*/
+    /*    margin-left: 20px;*/
+    /*}*/
+    .desktop {
+        display: block;
+    }
+    .mob {
+        display: none;
+    }
+    .navbar-nav {
+        padding-top: 0;
+        position: relative;
+    }
+    .navbar-collapse {
+        position: unset;
+        top: 0px;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+    }
+    .navbar-brand {
+        padding-left: 0;
+        margin-right: 120px;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        color: #C4C4C4;
+        padding: 8px 24px;
+    }
+    .container-fluid {
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .header__logo.mob.active {
+        display: none;
+    }
+}
+
+@media (min-width: 1280px) and (max-width: 1735px ) {
+    .device {
+        height: 1088px;
+    }
+    .list_img {
+        background: url('img/shit.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        top: 181px;
+    }
+}
